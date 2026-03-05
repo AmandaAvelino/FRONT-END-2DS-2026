@@ -58,5 +58,19 @@
         <p>Redimensione a janela do navegador para ver o menu mudar.</p>
     </div>
 
+    <a href="" style="text-decoration: none; color:blueviolet">qualquer coisa</a>
+
+    <script>
+
+        // SELECIONA OS ELEMENTOS DE HTML
+        const hamburguerBtn = document.getElementById('hamburguer-btn');
+        const navLinks = document.getElementById('nav-links');
+
+            // ADICIONA UM EVENTO AO BOTÃO DE CLICK
+            hamburguerBtn.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+            })
+    </script>
+
 </body>
 </html>
