@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Três Quadrados</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            gap: 30px;
+        }
+
+        .quadrado {
+            width: 150px;
+            height: 150px;
+            background-color: #4CAF50;
+            border: 3px solid #2E7D32;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 48px;
+            font-weight: bold;
+            color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, background-color 0.3s ease;
+            cursor: pointer;
+        }
+
+        .quadrado:hover {
+            transform: scale(1.1);
+            background-color: #45a049;
+        }
+
+        .quadrado:nth-child(2) {
+            background-color: #2196F3;
+            border-color: #1565C0;
+        }
+
+        .quadrado:nth-child(2):hover {
+            background-color: #1976D2;
+        }
+
+        .quadrado:nth-child(3) {
+            background-color: #FF9800;
+            border-color: #E65100;
+        }
+
+        .quadrado:nth-child(3):hover {
+            background-color: #FB8C00;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="quadrado">1</div>
+        <div class="quadrado">2</div>
+        <div class="quadrado">3</div>
+    </div>
+</body>
+</html>
