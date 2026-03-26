@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'sans-serif' ;
+}
+
+/* FUNDO DA PÁGINA COM GRADIENT */
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #667eea, 0% #7d38c3 100%);
+}
+
+/* CARD PRICIPAL */
+.form-container{
+    background: rgba(255, 255, 255, 0.95);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 15px 35px rgba( 0, 0, 0,0.2);
+    max-width: 400px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
